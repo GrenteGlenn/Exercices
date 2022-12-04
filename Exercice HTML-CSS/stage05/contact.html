@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <link href= "style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+</head>
+<body>
+   
+    <main>
+        <form>
+            <fieldset>
+                <legend>Personal informations</legend>
+                <div class="civil">
+                <label for="CIVILITY">CIVILITY</label>
+
+                <label class="female" for="Woman:">Woman</label>
+                <input type="radio" placeholder="Complete this field" id="Woman" name="Civility" value="Woman" required />
+                           
+                <label class="male" for="men:">men</label>
+                <input type="radio" placeholder="Complete this field" id="Men" name="Civility" value="Men" required />
+                </div>
+                
+                <label for="Firstname">Firstname</label>
+                <input type="text" placeholder="Complete this field" id="Firstname" required />
+                
+                <label for="Lastname">Lastname</label>
+                <input type="text" placeholder="Complete this field" id="Lastname" required />
+                
+                <label for="Email">Email</label>
+                <input type="email" placeholder="Complete this field" id="Email" required />
+                
+                <label for="Phone number">Phone number</label>
+                <input type="number" placeholder="Complete this field" id="Phone number" required />            
+            </fieldset>
+            <fieldset>
+                <legend>Message</legend>
+
+                <label class="sub" for="subject">subject</label>
+
+                <select name="subject" id="subject">
+                    <option value="">Complete this field</option>
+                    <option value="Work proposal">Work proposal</option>
+                    <option value="Just saying hello">Just saying hello</option>
+                    <option value="Rendez-vous">Rendez-vous</option>
+                </select>
+                
+                <label class ="date" for="Current Date">Current Date</label>  
+                <input class="margin-b" type="date" id="date">
+
+                <label for="content">content</label>
+                <textarea name="Content" id="Content"></textarea>
+                
+            </fieldset>
+            <input class="button" type="submit">
+        </form>
+    </main>
+</body>
+</html>

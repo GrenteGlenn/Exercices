@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <link href= "style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1><span>Glenn</span>GRENTE</h1>
+     
+        <nav>
+    
+            <ul class="unorderlist">
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Projects</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Personal informations</legend>
+
+                <label for="men:">men</label>
+                <input type="radio" id="Men" name="Civility" value="Men" required>
+                <label for="Woman:">Woman</label>
+
+                <input type="radio" id="Woman" name="Civility" value="Woman" required>
+                <label for="Firstname">Firstname</label>
+                
+                <input type="text" id="Firstname" required>
+                <label for="Lastname">Lastname</label>
+
+                <input type="text" id="Lastname" required>
+                <label for="Email">Email</label>
+                <input type="email" id="Email" required>
+                <label for="Phone number">Phone number</label>
+                <input type="number" id="Phone number" required>            
+            </fieldset>
+            <fieldset>
+                <legend>Message</legend>
+                <label for="choice"></label>
+                <select name="choice" id="choice">
+                    <option value="Work proposal">Work proposal</option>
+                    <option value="Just saying hello">Just saying hello</option>
+                    <option value="Rendez-vous">Rendez-vous</option>
+                </select>
+                <label for="Current Date">Current Date</label>  
+                <input type="date" id="date">
+                <textarea name="Content" id="Content"></textarea>
+                
+            </fieldset>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>

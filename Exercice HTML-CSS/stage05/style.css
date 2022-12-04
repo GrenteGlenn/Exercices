@@ -1,0 +1,85 @@
+fieldset
+{
+    border:0;
+    display: flex;
+    flex-direction: column;
+    
+}
+legend
+{
+    border-bottom: 4px solid black;
+    border-width: 10px;
+    width: 100%;
+}
+label
+{
+    text-transform: uppercase;
+}
+input
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px  solid black; 
+    margin-bottom: 2em;
+}
+input:focus
+{
+    color: #54a6b1 ;
+}
+select
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px  solid black;
+    background-color: #FFF; 
+}
+select:focus
+{
+    color: #54a6b1 ;
+}
+.female ,.male
+{
+    text-transform: lowercase;
+    display: inline;
+
+}
+.civil
+{
+    display: inline-block;
+    word-spacing: 25px;
+
+}
+.margin-b
+{
+    margin-top: 2em;
+}
+.date
+{
+    margin-top: 2em;
+}
+.sub
+{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+textarea
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px  solid black; 
+}
+.button
+{
+    color: #FFF ;
+    background-color: #000 ;
+    width: 2cm;
+    height: 2cm;
+    margin-top: 2em;
+    margin-left: 2em;
+    border:#000;
+
+
+}
