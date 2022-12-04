@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "node.js": "^0.0.1-security",
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "myirc",
+  "version": "1.0.0",
+  "main": "interface.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
